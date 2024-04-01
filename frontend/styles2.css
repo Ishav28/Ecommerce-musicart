@@ -1,0 +1,271 @@
+/* Add the following CSS code to style the product section */
+.header-logo{
+    width: 320px;
+    height: 440px;
+}
+
+  .view-cart-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .view-cart-button {
+    background-color: #57b52b;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+  }
+  
+  .view-cart-button:hover {
+    background-color: #4b8f20;
+  }
+  
+  .view-cart-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .view-cart-button:active {
+    transform: translateY(2px);
+  }
+  
+  .view-cart-button img {
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .view-cart-number {
+    background-color: #57b52b;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
+.header-center{
+    align-items: center;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:24px;
+  }
+  
+  .product-card {
+    width: 320px;
+    height: 440px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 0 8px 16px 0;
+    overflow: hidden;
+  }
+  
+  .product-image-container {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+  }
+  
+  .product-image-container img {
+    width: 75%;
+    height: auto;
+  }
+  
+  .product-info {
+    padding: 16px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .product-features {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feature {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  
+  .feature-title {
+    font-weight: bold;
+    width: 80px;
+  }
+  
+  .feature-value {
+    flex-grow: 1;
+  }
+  
+  .sort-by {
+    font-weight: bold;
+    margin-top: 24px;
+  }
+  
+  /* Add the following CSS code to style the header and footer */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E0052;
+    color: #fff;
+    padding: 16px;
+  }
+  
+  header .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .header-left .header-logo {
+    height: 32px;
+    margin-right: 16px;
+  }
+  
+  header .header-left .header-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .header-right {
+    display: flex;
+  }
+  
+  header .header-button {
+    background-color: #fff;
+    color: #2E0052;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  header .header-button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    background-color: #2E0052;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer .footer-left {
+    height: 59px;
+    margin-right: 16px;
+  }
+  
+  footer .footer-right span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+  }
+  
+  .feedback-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .feedback-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color:#3F51B5;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3546a6;
+  }
